@@ -18,6 +18,9 @@ export const config = defineStackbitConfig({
     stackbitVersion: '~0.6.0',
     ssgName: 'nextjs',
     nodeVersion: '18',
+    preInstallCommand: 'curl -fsSL https://bun.sh/install | bash',
+    installCommand: 'bun install',
+    devCommand: 'bun dev dev',
     styleObjectModelName: 'ThemeStyle',
     contentSources: [gitContentSource],
     presetSource: {
