@@ -20,7 +20,7 @@ export const config = defineStackbitConfig({
     nodeVersion: '18',
     preInstallCommand: 'npm install -g bun',
     installCommand: 'bun install',
-    devCommand: 'bun dev dev',
+    devCommand: 'bun run dev',
     styleObjectModelName: 'ThemeStyle',
     contentSources: [gitContentSource],
     presetSource: {
